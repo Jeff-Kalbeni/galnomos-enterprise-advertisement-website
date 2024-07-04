@@ -1,1 +1,1 @@
-# Galnomos-enterprise-advertisement-website
+# Galnomos Enterprise's Advertisement Website
