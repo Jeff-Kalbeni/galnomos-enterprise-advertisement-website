@@ -1,0 +1,215 @@
+/* body {
+    margin: 0;
+    line-height: normal;
+} */
+
+:root {
+    /* fonts */
+    --subheading: Inter;
+    --font-radio-canada: "Radio Canada";
+    --font-actor: Actor;
+    --font-roboto-flex: "Roboto Flex";
+    --font-inria-serif: "Inria Serif";
+    --font-inder: Inder;
+    --font-inknut-antiqua: "Inknut Antiqua";
+    --font-inria-sans: "Inria Sans";
+    --font-rajdhani: Rajdhani;
+    --font-gravitas-one: "Gravitas One";
+    --font-fascinate: Fascinate;
+    --font-roboto-mono: "Roboto Mono";
+    --font-jomhuria: Jomhuria;
+
+    /* font sizes */
+    --body-text-size: 20px;
+    --subheading-size: 24px;
+    --font-size-31xl: 50px;
+    --font-size-13xl: 32px;
+    --font-size-21xl: 40px;
+    --small-text-size: 16px;
+    --font-size-base-3: 16.3px;
+    --font-size-8xl-1: 27.1px;
+
+    /* Colors */
+    --color-whitesmoke-100: #f7f7f7;
+    --color-gray-100: #828282;
+    --color-gray-200: #151414;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-midnightblue: #060f58;
+    --color-ivory: #fcfef1;
+    --color-darkslategray: #454545;
+
+    /* Spacing */
+    --spacing-m: 48px;
+    --spacing-xs: 8px;
+    --spacing-s: 24px;
+    --spacing-sm: 32px;
+
+    /* Gaps */
+    --gap-29xl: 48px;
+    --gap-5xs: 8px;
+    --gap-5xl: 24px;
+    --gap-9xs: 4px;
+    --gap-lgi: 19px;
+    --gap-base: 16px;
+    --gap-11xs: 2px;
+    --gap-base-3: 16.3px;
+
+    /* Paddings */
+    --padding-sm: 14px;
+    --padding-5xl: 24px;
+    --padding-3xs: 10px;
+    --padding-13xl: 32px;
+
+    /* Border radiuses */
+    --br-5xs: 8px;
+    --br-6xl: 25px;
+    --br-xs: 12px;
+    --br-9xs: 4px;
+    --br-7xs-4: 5.4px;
+
+    /* Effects */
+    --button-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+.farming-and-agriculture1 {
+    width: 385.4px;
+    position: relative;
+    line-height: 110%;
+    display: inline-block;
+}
+
+.our-poultry-farming1,
+.poultry1 {
+    align-self: stretch;
+    position: relative;
+}
+
+.poultry1 {
+    line-height: 110%;
+    font-weight: 600;
+}
+
+.our-poultry-farming1 {
+    font-size: var(--font-size-base-3);
+    line-height: 150%;
+    font-family: var(--subheading);
+    color: var(--color-gray-100);
+    text-align: left;
+}
+
+.copy13,
+.farming-and-agriculture-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy13 {
+    width: 404.4px;
+    box-shadow: 0 2.7px 2.71px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-white);
+    height: 232.1px;
+    justify-content: center;
+    padding: 0 10.2px;
+    box-sizing: border-box;
+    gap: var(--gap-base-3);
+    font-size: var(--font-size-8xl-1);
+    font-family: var(--font-radio-canada);
+}
+
+.farming-and-agriculture-group {
+    justify-content: flex-start;
+    gap: 39.4px;
+}
+
+.image-icon7 {
+    width: 424.1px;
+    position: relative;
+    border-radius: 5.43px;
+    height: 271.4px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.frame-parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12.9px;
+}
+
+.image-item {
+    position: absolute;
+    top: 371.9px;
+    left: 156.7px;
+    width: 67.9px;
+    height: 67.9px;
+    overflow: hidden;
+}
+
+.image1 {
+    width: 423.4px;
+    position: relative;
+    border-radius: 5.43px;
+    height: 416.6px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-image: url(./public/image@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.explore-our-wide1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base-3);
+    line-height: 150%;
+    font-family: var(--subheading);
+    color: var(--color-gray-100);
+}
+
+.copy14 {
+    width: 350.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 9.5px 0;
+    box-sizing: border-box;
+    gap: var(--gap-base-3);
+}
+
+.agriculture2,
+.image-group {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    text-align: left;
+    font-size: var(--font-size-8xl-1);
+    font-family: var(--font-radio-canada);
+}
+
+.agriculture2 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-ivory);
+    height: 698.3px;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 70px;
+    box-sizing: border-box;
+    gap: 200px;
+    text-align: center;
+    font-size: 33.9px;
+    color: var(--color-black);
+    font-family: var(--font-gravitas-one);
+    
+}
