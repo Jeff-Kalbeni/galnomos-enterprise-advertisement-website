@@ -1,0 +1,970 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-radio-canada: "Radio Canada";
+  --font-actor: Actor;
+  --font-roboto-flex: "Roboto Flex";
+  --font-inter: Inter;
+  --font-inria-serif: "Inria Serif";
+  --font-inder: Inder;
+  --font-inknut-antiqua: "Inknut Antiqua";
+
+  /* font sizes */
+  --font-size-sm-4: 13.4px;
+  --font-size-base-1: 16.1px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkslategray-200: #333;
+  --color-gray-100: #828282;
+  --color-gray-200: #151414;
+  --color-midnightblue: #060f58;
+
+  /* Gaps */
+  --gap-base-1: 16.1px;
+  --gap-10xs-7: 2.7px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-base: 16px;
+  --padding-6xs-7: 6.7px;
+  --padding-7xs: 6px;
+  --padding-37xl: 56px;
+  --padding-5xs: 8px;
+  --padding-6xl: 25px;
+  --padding-6xs: 7px;
+  --padding-12xs-1: 0.1px;
+
+  /* Border radiuses */
+  --br-7xs-4: 5.4px;
+  --br-base-7: 16.7px;
+}
+.mobile-phones-and {
+    position: relative;
+    line-height: 150%;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.discover-a-wide {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base-1);
+    line-height: 150%;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+}
+
+.frame-wrapper,
+.mobile-phones-and-accessories-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.mobile-phones-and-accessories-parent {
+    align-items: center;
+    gap: 12.7px;
+}
+
+.frame-wrapper {
+    align-items: flex-start;
+    padding: var(--padding-6xs-7) var(--padding-7xs);
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.view-more {
+    position: relative;
+    font-size: var(--font-size-base-1);
+    line-height: 150%;
+    font-family: var(--font-inter);
+    display: inline-block;
+    text-shadow: 0.7px 0 0#000, 0 0.7px 0#000, -0.7px 0 0#000, 0-0.7px 0#000;
+    min-width: 79px;
+}
+
+.frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 14px;
+    box-sizing: border-box;
+    gap: 20.7px;
+    max-width: 100%;
+}
+
+.image-icon,
+.iphone-13-pro {
+    align-self: stretch;
+    position: relative;
+}
+
+.image-icon {
+    flex: 1;
+    border-radius: 16.73px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.iphone-13-pro {
+    line-height: 150%;
+}
+
+.features-a-61-inch {
+    font-weight: 500;
+}
+
+.features-a-61-inch,
+.read-more {
+    white-space: pre-wrap;
+}
+
+.features-a-61-inch-super-reti {
+    margin: 0;
+}
+
+.blank-line1 {
+    white-space: pre-wrap;
+}
+
+.blank-line {
+    margin: 0;
+    color: var(--color-gray-200);
+}
+
+.more-apple-product1 {
+    white-space: pre-wrap;
+}
+
+.more-apple-product {
+    margin: 0;
+    color: var(--color-midnightblue);
+}
+
+.features-a-61-inch-container {
+    align-self: stretch;
+    height: 80px;
+    position: relative;
+    line-height: 150%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: var(--color-gray-100);
+}
+
+.copy {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 var(--padding-12xs-1);
+    gap: var(--gap-10xs-7);
+}
+
+.button:hover,
+.card {
+    box-sizing: border-box;
+}
+
+.card {
+    height: 275.7px;
+    width: 270px;
+    box-shadow: 0 2.7px 2.68px rgba(0, 0, 0, 0.25);
+    border-radius: 16.73px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs-7) var(--padding-7xs) var(--padding-6xs);
+    gap: var(--gap-base-1);
+}
+
+.image-icon1,
+.iphone-13-pro1 {
+    align-self: stretch;
+    position: relative;
+}
+
+.image-icon1 {
+    flex: 1;
+    border-radius: 16.73px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.iphone-13-pro1 {
+    line-height: 150%;
+}
+
+.features-a-61-inch1 {
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+.read-more1 {
+    white-space: pre-wrap;
+}
+
+.features-a-61-inch-super-reti1 {
+    margin: 0;
+}
+
+.blank-line3 {
+    white-space: pre-wrap;
+}
+
+.blank-line2 {
+    margin: 0;
+    color: var(--color-gray-200);
+}
+
+.more-apple-product3 {
+    white-space: pre-wrap;
+}
+
+.more-apple-product2 {
+    margin: 0;
+    color: var(--color-midnightblue);
+}
+
+.features-a-61-inch-container1 {
+    align-self: stretch;
+    height: 80px;
+    position: relative;
+    line-height: 150%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: var(--color-gray-100);
+}
+
+.card1,
+.copy1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copy1 {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 0 var(--padding-12xs-1);
+    gap: var(--gap-10xs-7);
+}
+
+.card1 {
+    height: 275.7px;
+    width: 270px;
+    box-shadow: 0 2.7px 2.68px rgba(0, 0, 0, 0.25);
+    border-radius: 16.73px;
+    background-color: var(--color-white);
+    justify-content: flex-start;
+    padding: var(--padding-6xs-7) var(--padding-7xs) var(--padding-6xs);
+    box-sizing: border-box;
+    gap: var(--gap-base-1);
+}
+
+.image-icon2,
+.samsung-galaxy-s21 {
+    align-self: stretch;
+    position: relative;
+}
+
+.image-icon2 {
+    flex: 1;
+    border-radius: 16.73px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.samsung-galaxy-s21 {
+    line-height: 150%;
+}
+
+.boasts-a-68-inch {
+    font-weight: 500;
+}
+
+.boasts-a-68-inch,
+.read-more2 {
+    white-space: pre-wrap;
+}
+
+.boasts-a-68-inch-dynamic-amol {
+    margin: 0;
+}
+
+.blank-line5 {
+    white-space: pre-wrap;
+}
+
+.blank-line4 {
+    margin: 0;
+    color: var(--color-gray-200);
+}
+
+.more-samsung-product1 {
+    white-space: pre-wrap;
+}
+
+.more-samsung-product {
+    margin: 0;
+    color: var(--color-midnightblue);
+}
+
+.boasts-a-68-inch-container {
+    align-self: stretch;
+    height: 80px;
+    position: relative;
+    line-height: 150%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: var(--color-gray-100);
+}
+
+.card2,
+.copy2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copy2 {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 0 var(--padding-12xs-1);
+    gap: var(--gap-10xs-7);
+}
+
+.card2 {
+    height: 275.7px;
+    width: 270px;
+    box-shadow: 0 2.7px 2.68px rgba(0, 0, 0, 0.25);
+    border-radius: 16.73px;
+    background-color: var(--color-white);
+    justify-content: flex-start;
+    padding: var(--padding-6xs-7) var(--padding-7xs) var(--padding-6xs);
+    box-sizing: border-box;
+    gap: var(--gap-base-1);
+}
+
+.image-icon3,
+.samsung-galaxy-s211 {
+    align-self: stretch;
+    position: relative;
+}
+
+.image-icon3 {
+    flex: 1;
+    border-radius: 16.73px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.samsung-galaxy-s211 {
+    line-height: 150%;
+}
+
+.boasts-a-68-inch1 {
+    font-weight: 500;
+}
+
+.boasts-a-68-inch1,
+.read-more3 {
+    white-space: pre-wrap;
+}
+
+.boasts-a-68-inch-dynamic-amol1 {
+    margin: 0;
+}
+
+.blank-line7 {
+    white-space: pre-wrap;
+}
+
+.blank-line6 {
+    margin: 0;
+    color: var(--color-gray-200);
+}
+
+.more-samsung-product3 {
+    white-space: pre-wrap;
+}
+
+.more-samsung-product2 {
+    margin: 0;
+    color: var(--color-midnightblue);
+}
+
+.boasts-a-68-inch-container1 {
+    align-self: stretch;
+    height: 80px;
+    position: relative;
+    line-height: 150%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: var(--color-gray-100);
+}
+
+.card3,
+.copy3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copy3 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-10xs-7);
+}
+
+.card3 {
+    height: 275.7px;
+    width: 270px;
+    box-shadow: 0 2.7px 2.68px rgba(0, 0, 0, 0.25);
+    border-radius: 16.73px;
+    background-color: var(--color-white);
+    justify-content: flex-start;
+    padding: var(--padding-6xs-7) var(--padding-7xs) var(--padding-6xs);
+    box-sizing: border-box;
+    gap: var(--gap-base-1);
+}
+
+.huawei-p40-pro,
+.image-icon4 {
+    align-self: stretch;
+    position: relative;
+}
+
+.image-icon4 {
+    flex: 1;
+    border-radius: 16.73px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.huawei-p40-pro {
+    line-height: 150%;
+}
+
+.includes-a-658-inch {
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+.read-more4 {
+    white-space: pre-wrap;
+}
+
+.includes-a-658-inch-oled-disp {
+    margin: 0;
+}
+
+.blank-line9 {
+    white-space: pre-wrap;
+}
+
+.blank-line8 {
+    margin: 0;
+    color: var(--color-gray-200);
+}
+
+.more-huawei-product1 {
+    white-space: pre-wrap;
+}
+
+.more-huawei-product {
+    margin: 0;
+    color: var(--color-midnightblue);
+}
+
+.includes-a-658-inch-container {
+    align-self: stretch;
+    height: 80px;
+    position: relative;
+    line-height: 150%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: var(--color-gray-100);
+}
+
+.card4,
+.copy4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copy4 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-10xs-7);
+}
+
+.card4 {
+    height: 275.7px;
+    width: 270px;
+    box-shadow: 0 2.7px 2.68px rgba(0, 0, 0, 0.25);
+    border-radius: 16.73px;
+    background-color: var(--color-white);
+    justify-content: flex-start;
+    padding: var(--padding-6xs-7) var(--padding-7xs) var(--padding-6xs);
+    box-sizing: border-box;
+    gap: var(--gap-base-1);
+}
+
+.huawei-p40-pro1,
+.image-icon5 {
+    align-self: stretch;
+    position: relative;
+}
+
+.image-icon5 {
+    flex: 1;
+    border-radius: 16.73px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.huawei-p40-pro1 {
+    line-height: 150%;
+}
+
+.includes-a-658-inch1 {
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+.read-more5 {
+    white-space: pre-wrap;
+}
+
+.includes-a-658-inch-oled-disp1 {
+    margin: 0;
+}
+
+.blank-line11 {
+    white-space: pre-wrap;
+}
+
+.blank-line10 {
+    margin: 0;
+    color: var(--color-gray-200);
+}
+
+.more-huawei-product3 {
+    white-space: pre-wrap;
+}
+
+.more-huawei-product2 {
+    margin: 0;
+    color: var(--color-midnightblue);
+}
+
+.includes-a-658-inch-container1 {
+    align-self: stretch;
+    height: 80px;
+    position: relative;
+    line-height: 150%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: var(--color-gray-100);
+}
+
+.card5,
+.copy5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copy5 {
+    align-self: stretch;
+    justify-content: center;
+    gap: var(--gap-10xs-7);
+}
+
+.card5 {
+    height: 275.7px;
+    width: 270px;
+    box-shadow: 0 2.7px 2.68px rgba(0, 0, 0, 0.25);
+    border-radius: 16.73px;
+    background-color: var(--color-white);
+    justify-content: flex-start;
+    padding: var(--padding-6xs-7) var(--padding-7xs) var(--padding-6xs);
+    box-sizing: border-box;
+    gap: var(--gap-base-1);
+}
+
+.card-grid,
+.mobilephones {
+    align-self: stretch;
+    display: flex;
+}
+
+.card-grid {
+    border-radius: 5.35px;
+    background-color: rgba(247, 234, 188, 0.67);
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    min-height: 582px;
+    gap: 20px;
+    text-align: center;
+    font-size: var(--font-size-sm-4);
+    font-family: var(--font-inter);
+}
+
+.mobilephones {
+    background-color: rgba(244, 212, 98, 0.62);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 21.6px 51px;
+    box-sizing: border-box;
+    gap: 27.4px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 22.8px;
+    color: var(--color-black);
+    font-family: var(--font-inknut-antiqua);
+}
+
+.beauty-and-wellness {
+    position: relative;
+    line-height: 150%;
+}
+
+.headerbeaut {
+    align-self: stretch;
+    background-color: #040404;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4.6px var(--padding-xl) 4.5px;
+    text-align: center;
+    font-size: 66.9px;
+    color: var(--color-white);
+    font-family: var(--font-inria-serif);
+}
+
+.at-galnomos-our {
+    margin: 0;
+}
+
+.blank-line12 {
+    margin: 0;
+    font-size: 10.3px;
+    font-family: var(--font-inria-serif);
+}
+
+.at-galnomos-our-container {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+}
+
+.explore {
+    position: relative;
+    font-size: var(--font-size-base-1);
+    line-height: 150%;
+    display: inline-block;
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+    min-width: 60px;
+}
+
+.button {
+    cursor: pointer;
+    border: 0.7px solid var(--color-white);
+    padding: var(--padding-5xs) 15px var(--padding-5xs) var(--padding-base);
+    background-color: var(--color-black);
+    box-shadow: 0 2.7px 2.68px rgba(255, 255, 255, 0.25) inset,
+        0 0.7px 1.34px rgba(0, 0, 0, 0.05);
+    border-radius: 5.35px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.button:hover {
+    border: 0.7px solid #e6e6e6;
+}
+
+.beautbod,
+.button-wrapper {
+    display: flex;
+    max-width: 100%;
+}
+
+.button-wrapper {
+    width: 696.8px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.beautbod {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 150.8px 113px 74.4px;
+    box-sizing: border-box;
+    gap: 33.6px;
+    background-image: url(./public/beautbod@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+    font-size: var(--font-size-base-1);
+    color: var(--color-white);
+    font-family: var(--font-inder);
+}
+
+.transport-image-icon {
+    width: 356.7px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.drive-when-you {
+    width: 425.6px;
+    position: relative;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 125%;
+}
+
+.drive-when-you-want-make-what-wrapper {
+    width: 342px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-6xs-7) 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+}
+
+.at-galnomos-our1 {
+    flex: 1;
+    position: relative;
+    line-height: 150%;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.at-galnomos-our-transportatio-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-6xs-7) var(--padding-7xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-family: var(--font-actor);
+}
+
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 19.4px;
+    max-width: 100%;
+}
+
+.get-started {
+    position: relative;
+    font-size: var(--font-size-sm-4);
+    line-height: 150%;
+    font-weight: 500;
+    font-family: var(--font-radio-canada);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 73px;
+}
+
+.button1 {
+    cursor: pointer;
+    border: 0;
+    padding: 9.4px var(--padding-base) 9.3px;
+    background-color: var(--color-black);
+    box-shadow: 0 0.7px 1.34px rgba(0, 0, 0, 0.05);
+    border-radius: 5.35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.button1:hover,
+.button:hover {
+    background-color: var(--color-darkslategray-200);
+}
+
+.transport-content {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-xl) 0;
+    box-sizing: border-box;
+    gap: 60.9px;
+    min-width: 252px;
+    max-width: 100%;
+}
+
+.page,
+.transport-content,
+.transport-image-parent {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.transport-image-parent {
+    align-self: stretch;
+    background-color: var(--color-white);
+    flex-direction: row;
+    align-items: center;
+    padding: 0 88px 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 111.1px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 33.5px;
+    color: var(--color-black);
+    font-family: var(--font-roboto-flex);
+}
+
+.page {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 800px) {
+    .mobilephones {
+        padding-top: var(--padding-xl);
+        padding-bottom: var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .beauty-and-wellness {
+        font-size: 54px;
+        line-height: 80px;
+    }
+
+    .transport-image-icon {
+        flex: 1;
+    }
+
+    .drive-when-you {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .transport-image-parent {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 675px) {
+
+    .beautbod,
+    .mobilephones {
+        padding-left: var(--padding-6xl);
+        padding-right: var(--padding-6xl);
+        box-sizing: border-box;
+    }
+
+    .beautbod {
+        gap: 17px;
+        padding-left: var(--padding-37xl);
+        padding-right: var(--padding-37xl);
+    }
+
+    .transport-image-parent {
+        gap: 56px;
+        padding-right: 44px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .mobile-phones-and {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .beauty-and-wellness {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .beautbod {
+        padding-top: 98px;
+        padding-bottom: 48px;
+        box-sizing: border-box;
+    }
+
+    .drive-when-you {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .transport-content {
+        gap: 30px;
+    }
+}
