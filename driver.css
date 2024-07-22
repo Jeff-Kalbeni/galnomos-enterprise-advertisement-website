@@ -103,6 +103,7 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     z-index: 1;
+
 }
 
 .button:hover {
@@ -180,7 +181,7 @@ body {
 
 .at-galnomos-our-transportatio-wrapper {
     align-self: stretch;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -194,12 +195,13 @@ body {
 
 .frame-group {
     align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
     justify-content: flex-start;
     gap: 19.4px;
     max-width: 100%;
+    margin-left: 50px;
 }
 
 .get-started {
@@ -221,7 +223,7 @@ body {
     background-color: var(--color-black);
     box-shadow: 0 0.7px 1.34px rgba(0, 0, 0, 0.05);
     border-radius: 5.35px;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
     justify-content: center;
