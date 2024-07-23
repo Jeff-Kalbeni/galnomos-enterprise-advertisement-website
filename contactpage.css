@@ -48,11 +48,11 @@ body {
     }
 }
 .connect-with-us,
-.header {
+.headers {
     position: relative;
 }
 
-.header {
+.headers {
     width: 100%;
     display: flex;
     flex-direction: row;

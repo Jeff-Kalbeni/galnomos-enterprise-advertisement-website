@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-roboto: Roboto;
+
+    /* Colors */
+    --color-green: rgba(18, 127, 8, 0.8);
+    --color-gray: #fffdfd;
+    --color-white: #fff;
+}
+
+.two-people-on-a-farm-1 {
+    height: 378.2px;
+    width: 438.2px;
+    position: absolute;
+    margin: 0 !important;
+    top: 34.9px;
+    left: 530.3px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+.empowering-your-everyday {
+    align-self: stretch;
+    position: relative;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.at-galnomos-we {
+    width: 450px;
+    height: 250px;
+    position: relative;
+    font-size: 15.4px;
+    letter-spacing: -0.02em;
+    line-height: 117.81%;
+    display: flex;
+    /* white-space: pre-wrap; */
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 2;
+    /* margin-top: -27.2px; */
+}
+
+.empowering-your-everyday-exper-parent {
+    width: 494.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    /* margin-bottom: auto; */
+}
+
+.swipe-ellipse-child {
+    height: 6.3px;
+    width: 6.3px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-white);
+}
+
+.swipe-ellipse-inner,
+.swipe-ellipse-item {
+    height: 6.3px;
+    width: 6.3px;
+    position: relative;
+    border-radius: 50%;
+    border: 0 solid var(--color-gray);
+    box-sizing: border-box;
+}
+
+.swipe-ellipse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12.6px;
+    z-index: 2;
+}
+
+.navigation,
+.rectangle-parents {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.navigation {
+    width: 494.4px;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-top: -19.9px; */
+}
+
+.rectangle-parents {
+    width: 739.7px;
+    margin: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-green);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 124.2px 33px 132.2px;
+    box-sizing: border-box;
+    min-height: 448px;
+}
+
+.goals-container,
+.mains {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mains {
+    height: 448px;
+    flex: 1;
+    align-items: center;
+    max-width: 100%;
+    text-align: left;
+    font-size: 25.1px;
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+}
+
+.goals-container {
+    width: 100%;
+    align-items: flex-start;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 450px) {
+    .empowering-your-everyday {
+        font-size: 20px;
+    }
+}
