@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-inter: Inter;
+    --font-inria-serif: "Inria Serif";
+
+    /* font sizes */
+    --font-size-2xs-8: 10.8px;
+    --font-size-sm-5: 13.5px;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-whitesmoke-100: #f7f7f7;
+    --color-gray-100: #828282;
+    --color-black: #000;
+
+    /* Gaps */
+    --gap-13xl-4: 32.4px;
+    --gap-base: 16px;
+    --gap-2xs-8: 10.8px;
+    --gap-11xs-3: 1.3px;
+
+    /* Paddings */
+    --padding-xl: 20px;
+    --padding-2xl: 21px;
+
+    /* Border radiuses */
+    --br-4xs-1: 8.1px;
+}
+.testimonials1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 30px;
+}
+
+.heading {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+}
+
+.here-are-some {
+    width: 421.7px;
+    position: relative;
+    font-size: 16.2px;
+    letter-spacing: -0.01px;
+    line-height: 150%;
+    font-family: var(--font-inter);
+    color: var(--color-gray-100);
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    max-width: 100%;
+}
+
+.heading-parent {
+    width: 494.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12.1px;
+    max-width: 100%;
+}
+
+.a-terrific-piece {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.avatar-icon {
+    height: 30.4px;
+    width: 30.4px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.description,
+.name {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 31px;
+}
+
+.description {
+    color: var(--color-gray-100);
+    min-width: 60px;
+}
+
+.avatar-details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-11xs-3);
+}
+
+.avatar,
+.avatar-details,
+.customer-quote {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.avatar {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-2xs-8);
+    font-size: var(--font-size-2xs-8);
+}
+
+.customer-quote {
+    flex: 1;
+    box-shadow: -2.7px 5.4px 13.5px rgba(0, 0, 0, 0.1);
+    border-radius: var(--br-4xs-1);
+    background-color: var(--color-white);
+    border: 0.7px solid var(--color-whitesmoke-100);
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+    gap: var(--gap-13xl-4);
+    min-width: 205px;
+}
+
+.a-fantastic-bit {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.avatar-icon1 {
+    height: 30.4px;
+    width: 30.4px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.description1,
+.name1 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 31px;
+}
+
+.description1 {
+    color: var(--color-gray-100);
+    min-width: 60px;
+}
+
+.name-parent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-11xs-3);
+}
+
+.avatar1,
+.customer-quote1,
+.name-parent {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.avatar1 {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-2xs-8);
+    font-size: var(--font-size-2xs-8);
+}
+
+.customer-quote1 {
+    flex: 1;
+    box-shadow: -2.7px 5.4px 13.5px rgba(0, 0, 0, 0.1);
+    border-radius: var(--br-4xs-1);
+    background-color: var(--color-white);
+    border: 0.7px solid var(--color-whitesmoke-100);
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+    gap: var(--gap-13xl-4);
+    min-width: 205px;
+}
+
+.a-genuinely-glowing {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.avatar-icon2 {
+    height: 30.4px;
+    width: 30.4px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.description2,
+.name2 {
+    position: relative;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 31px;
+}
+
+.description2 {
+    color: var(--color-gray-100);
+    min-width: 60px;
+}
+
+.avatar2,
+.name-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xs-3);
+}
+
+.avatar2 {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-2xs-8);
+    font-size: var(--font-size-2xs-8);
+}
+
+.customer-quote2 {
+    flex: 1;
+    box-shadow: -2.7px 5.4px 13.5px rgba(0, 0, 0, 0.1);
+    border-radius: var(--br-4xs-1);
+    background-color: var(--color-white);
+    border: 0.7px solid var(--color-whitesmoke-100);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+    gap: var(--gap-13xl-4);
+    min-width: 205px;
+}
+
+.cards,
+.customer-quote2,
+.root,
+.testimonials {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.cards {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 21.6px;
+    font-size: var(--font-size-sm-5);
+    font-family: var(--font-inter);
+}
+
+.root,
+.testimonials {
+    box-sizing: border-box;
+}
+
+.testimonials {
+    flex: 1;
+    background-color: var(--color-white);
+    flex-direction: column;
+    padding: 0 72px 0.9px 27px;
+    gap: 12.8px;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 27px;
+    color: var(--color-black);
+    font-family: var(--font-inria-serif);
+}
+
+.root {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 50px;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .testimonials1 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .customer-quote,
+    .customer-quote1,
+    .customer-quote2 {
+        gap: var(--gap-base);
+    }
+
+    .testimonials {
+        padding-right: 36px;
+        box-sizing: border-box;
+    }
+}

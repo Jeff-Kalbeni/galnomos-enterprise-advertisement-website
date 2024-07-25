@@ -1,0 +1,161 @@
+
+/* Global styles from global.css */
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Fonts */
+  --font-roboto-mono: "Roboto Mono";
+  --font-fascinate: Fascinate;
+
+  /* Font sizes */
+  --font-size-sm-5: 13.5px;
+
+  /* Colors */
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-xl: 20px;
+}
+
+/* Specific styles from index.css */
+.rightnavimage-icon {
+  position: absolute;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 80.8px;
+  object-fit: cover;
+}
+
+.rightnavtext {
+  position: absolute;
+  top: 15.6px;
+  left: 80.7px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  min-width: 109px;
+  white-space: nowrap;
+}
+
+.rightnavimage-parent {
+  height: 63.3px;
+  width: 189.7px;
+  position: relative;
+}
+
+.home,
+.services,
+.articles,
+.about-us,
+.contact {
+  line-height: 150%;
+  display: inline-block;
+  padding: 0 15px;
+  /* Increase padding for better touch target */
+  text-decoration: none;
+  color: #001c35;
+  /* Adjust link color */
+  font-family: 'Roboto Mono', monospace;
+  /* Ensure consistent font family */
+  font-size: 16px;
+  /* Adjust font size */
+}
+
+.links {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  /* Align links to the right */
+  gap: var(--gap-xl);
+}
+
+.header,
+.navigation {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.navigation {
+  flex: 1;
+  /* Ensure navigation takes remaining space */
+  /* display: none; */
+  /* Hide navigation links by default for small screens */
+}
+
+.header {
+  height: 80px;
+  /* Adjust navbar height */
+  width: 100%;
+  position: sticky;
+  box-shadow: 0 2.7px 2.69px rgba(0, 0, 0, 0.25);
+  background-color: #fcfef1;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13.5px 54px 13.2px 67px;
+  top: 0;
+  z-index: 99;
+  line-height: normal;
+  letter-spacing: normal;
+  gap: 400px;
+  text-align: left;
+  font-size: 21.5px;
+  color: #001c35;
+  font-family: 'Fascinate', cursive;
+}
+
+@media screen and (max-width: 600px) {
+
+  .home,
+  .services,
+  .articles,
+  .about-us,
+  .contact {
+    padding: 0 15px;
+    /* Increase padding for better touch target */
+    color: #001c35;
+    /* Adjust link color */
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    /* Ensure consistent font family */
+    font-size: 16px;
+    /* Adjust font size */
+  }
+
+  .links {
+    display: flex;
+    /* Show links in a flex layout */
+    flex-direction: column;
+    /* Display links in a column for small screens */
+    justify-content: center;
+    /* Center align links vertically */
+    align-items: center;
+    /* Center align links horizontally */
+    gap: 10px;
+    /* Adjust gap between links */
+  }
+
+  .navigation {
+    /* Show navigation container */
+    margin-left: 200px;
+    width: 100%;
+    padding-top: 10px;
+    /* Add top padding for spacing */
+  }
+
+  .header {
+    height: auto;
+    /* Allow header height to adjust */
+    padding: 10px;
+    /* Adjust padding for smaller screens */
+  }
+}
