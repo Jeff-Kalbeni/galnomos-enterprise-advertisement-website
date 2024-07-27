@@ -135,7 +135,7 @@ div.front-cover img{
     margin-top: 15%;
     font-size: 100px;
     color:azure;
-    font-family: 'Trebuchet MS';
+    font-family: "Josefin Sans";
     
 }
 
@@ -179,7 +179,7 @@ div.men img{
     font-size: 60px;
     text-align:justify;
     font-weight: lighter;
-    font-family: 'Trebuchet MS';
+    font-family:  "Julius Sans One";
     
     
 }
@@ -188,7 +188,7 @@ div.men img{
     font-size: 20px;
     text-align:justify;
     font-weight: lighter;
-    font-family: 'Trebuchet MS';
+    font-family: "Julius Sans One";
     margin-left: 20px;
     margin-right: 20px;
 
@@ -228,7 +228,7 @@ div.women img{
     font-size: 60px;
     text-align:justify;
     font-weight: lighter;
-    font-family: 'Trebuchet MS';
+    font-family: "Julius Sans One";
     
     
 }
@@ -237,7 +237,7 @@ div.women img{
     font-size: 20px;
     text-align:justify;
     font-weight: lighter;
-    font-family: 'Trebuchet MS';
+    font-family:"Julius Sans One";
     margin-left: 20px;
     margin-right: 20px;
 
@@ -276,7 +276,7 @@ div.children img{
     font-size: 60px;
     text-align:left;
     font-weight: lighter;
-    font-family: 'Trebuchet MS';
+    font-family: "Julius Sans One";
     
     
 }
@@ -285,15 +285,11 @@ div.children img{
     font-size: 20px;
     text-align:justify;
     font-weight: lighter;
-    font-family: 'Trebuchet MS';
+    font-family:"Julius Sans One";
     margin-left: 20px;
     margin-right: 20px;
 
 }
-
-
-
-
 
 .separate{
     width:100%;
@@ -310,14 +306,14 @@ div.children img{
     
 }
 .motto span{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:"Julius Sans One";
     font-weight: bold;
     font-size: larger;
     align-self: center;
 }
 
 .motto p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:"Julius Sans One";
     text-align:center;
 }
 
